@@ -1,0 +1,210 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body
+{
+  color: #555  /* Font: gray color */;
+  margin: 0; /* Getting rid of Margin white space around */
+
+  font-family: 'Montserrat', sans-serif;  /* sans-serif is the backup font */
+}
+
+
+
+ /* Header Section */
+
+#header
+{
+  background-color: #1abc9c;
+  height: 150px;
+  line-height: 150px; /* position elements within the header */
+}
+
+#header a
+{
+  color: white;
+  text-decoration: none;
+
+
+  text-transform: uppercase;
+  letter-spacing: 0.1em;  /* space between letters */
+
+  padding-left: 20px;
+}
+
+#header a:hover
+{
+  color: #222;
+}
+
+#header-title
+{
+  display: block;
+  float: left;
+
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#header-nav
+{
+  display: block;
+  float: right;
+  margin-top: 0;
+
+}
+
+#header-nav li
+{
+  display: inline;
+  padding-left: 20px;
+}
+
+
+#contact
+{
+  margin-right: 20px;
+}
+
+.post-container
+{
+  max-width: 1500px;
+  margin-left: 0 auto; /* position the element in the horizontal center */
+
+}
+
+ /* Contents Section */
+
+ .post-author img
+ {
+   height: 100px;
+   width: 100px;
+   border: solid 2px;
+   border-color: gray;
+   border-radius: 50%;
+   vertical-align: middle;
+
+ }
+
+.post-author span   /* spacing between pic and name */
+{
+  margin-left: 16px;
+}
+
+ .post-roleModel img
+ {
+   height: 100px;
+   width: 100px;
+   border: solid 2px;
+   border-color: gray;
+   border-radius: 50%;
+   vertical-align: middle;
+
+ }
+
+ .post-roleModel span  /* spacing between pic and name */
+ {
+   margin-left: 16px;
+ }
+
+
+ .post
+ {
+   max-width: 800px;
+   margin: 0 auto;  /* Position the elements in the horizontal center */
+   padding: 40px 0;
+ }
+
+ .about-author img
+ {
+   height: 100px;
+   width: 100px;
+   border: solid 2px;
+   border-color: gray;
+   border-radius: 50%;
+   vertical-align: middle;
+
+ }
+
+.post-date
+{
+  color: #D2D2D2;  /* gray color */
+
+  font-size: 14px;
+  font-weight: bold;
+
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+h1, h2, h3, h4
+{
+  color: #333;  /* Dark color */
+}
+
+p
+{
+  line-height: 1.5; /* more space for lines in paragraphs */
+}
+
+.post-container:nth-child(even)
+{
+  background-color: #f2f2f2;
+}
+
+/* about WebPage */
+.post, .about
+{
+  max-width: 800px;
+  margin: 0 60px;
+  padding: 60px 0;
+}
+
+.about
+{
+  text-align: center;
+}
+
+ /* Footer Section */
+
+#footer
+{
+  background-color: #2f2f2f;
+  padding: 50px 0;
+}
+
+#footer h4
+{
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 0.1em;
+}
+
+#footer p
+{
+  color: white;
+}
+
+#footer #first-column
+{
+  padding-left: 100px;
+}
+
+a
+{
+  color: #1abc9c;
+  text-decoration: none;
+}
+
+a:hover
+{
+  color: #F6A623;
+}
+
+
+.column
+{
+  min-width: 300px;
+  display: inline-block;
+  vertical-align: top; /* position elements to be in inline */
+
+}
